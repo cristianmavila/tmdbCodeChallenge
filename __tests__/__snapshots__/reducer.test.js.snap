@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers should handle FETCH_ERROR 1`] = `
+Object {
+  "error": undefined,
+  "loading": false,
+  "movie": Object {
+    "genres": Array [],
+  },
+  "movies": Object {
+    "results": Array [],
+  },
+}
+`;
+
+exports[`reducers should handle FETCH_MOVIE 1`] = `
+Object {
+  "error": "",
+  "loading": false,
+  "movie": undefined,
+  "movies": Object {
+    "results": Array [],
+  },
+}
+`;
+
+exports[`reducers should handle FETCH_MOVIES 1`] = `
+Object {
+  "error": "",
+  "loading": false,
+  "movie": Object {
+    "genres": Array [],
+  },
+  "movies": undefined,
+}
+`;
+
+exports[`reducers should handle FETCH_SEARCH 1`] = `
+Object {
+  "error": "",
+  "loading": false,
+  "movie": Object {
+    "genres": Array [],
+  },
+  "movies": undefined,
+}
+`;
+
+exports[`reducers should handle FETCH_START 1`] = `
+Object {
+  "error": "",
+  "loading": true,
+  "movie": Object {},
+  "movies": Object {
+    "results": Array [],
+  },
+}
+`;
