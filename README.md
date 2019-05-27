@@ -19,4 +19,4 @@ npm run test
 npm run build:prod
 ```
 
-Be carefull if your docker default url is localhost, if don't you can change on src/app/actions/index
+Be carefull if your docker default url is localhost, if don't have change yep, you can change here src/app/actions/index
