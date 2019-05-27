@@ -3,7 +3,7 @@ import serviceMovie from '../services/serviceMovie'
 import serviceMovies from '../services/serviceMovies'
 import serviceSearch from '../services/serviceSearch'
 
-export const ROOT_URL = `http://192.168.99.100:9000/`
+export const ROOT_URL = `http://localhost:9000/`
 export const FETCH_MOVIES = 'FETCH_MOVIES'
 export const FETCH_MOVIE = 'FETCH_MOVIE'
 export const FETCH_START = 'FETCH_START'

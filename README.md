@@ -1,6 +1,6 @@
 # Coding Assignment for the TMDb
 
-That's a application developed with Slim Framework on back-end and ReactJS, Redux and axios on front-end.
+That application will provide a sample PHP api connected with TMDB api, so it's totally possible to implement refactory in the future. In our frontend we're are using ReactJS 16, Redux, Axios and Jest to test some components. In my honest opinion in the next step i could be put my PHP code inside a controller.
 
 ## How to install it and run:
 ```bash
@@ -18,3 +18,5 @@ npm run test
 ```bash
 npm run build:prod
 ```
+
+Be carefull if your docker default url is localhost, if don't you can change on src/app/actions/index
